@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Sitemap declarations for all locales
+Sitemap: https://www.refycon.com/sitemap.xml
+Sitemap: https://www.refycon.com/sitemap-en.xml
+Sitemap: https://www.refycon.com/sitemap-fr.xml
+Sitemap: https://www.refycon.com/sitemap-de.xml
+Sitemap: https://www.refycon.com/sitemap-it.xml
+Sitemap: https://www.refycon.com/sitemap-nl.xml
+Sitemap: https://www.refycon.com/sitemap-ru.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
