@@ -1,1 +1,9 @@
-{"framework": null}
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://refycon.com/$1",
+      "permanent": true
+    }
+  ]
+}
